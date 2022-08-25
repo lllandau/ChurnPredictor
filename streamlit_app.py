@@ -36,15 +36,6 @@ st.write("Churn Data:")
 #age = st.slider('How old are you?', 0, 140, 25)
 #st.write("I'm ", age, 'years old')
 
-#############################################################################
-import matplotlib.pyplot as plt
-import seaborn as sns
-corr = data.corr()
-
-fig = plt.figure(figsize=(10, 4))
-sns.heatmap(corr, xticklabels=corr.columns, yticklabels=corr.columns, cmap="RdBu_r")
-
-st.pyplot(fig)
 
 ##############################################################################
 
