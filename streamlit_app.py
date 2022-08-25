@@ -29,12 +29,12 @@ st.write("Churn Data:")
 #st.dataframe(data.style.applymap(color_churned, subset=['Churned']))
 
 #############################################################################
-st.write("How many customers in out dataset have churned?")
-target_bins = data.loc[:, "Churn"].value_counts()
-st.bar_chart(target_bins)
+#st.write("How many customers in out dataset have churned?")
+#target_bins = data.loc[:, "Churn"].value_counts()
+#st.bar_chart(target_bins)
 
-age = st.slider('How old are you?', 0, 140, 25)
-st.write("I'm ", age, 'years old')
+#age = st.slider('How old are you?', 0, 140, 25)
+#st.write("I'm ", age, 'years old')
 
 #############################################################################
 import matplotlib.pyplot as plt
