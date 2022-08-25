@@ -54,9 +54,9 @@ from sklearn.linear_model import LogisticRegression
 
 
 st.title("Telco Churn Prediction")
-test_data = pd.read_csv("./data/single_row_to_check.csv")
+#test_data = pd.read_csv("./data/single_row_to_check.csv")
 st.write("Telco data from Kaggle")
-st.write(test_data)
+#st.write(test_data)
 
 def load_pickles(model_pickle_path, label_encoder_pickle_path):
     """
