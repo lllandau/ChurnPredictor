@@ -7,9 +7,9 @@ import category_encoders as ce
 st.write("## Here we create data using a table:")
 st.title("Here we create data using a table:")
 
-data = pd.read_csv("./data/training_data.csv")
+#data = pd.read_csv("./data/training_data.csv")
 st.write("Churn Data:")
-st.write(data)
+#st.write(data)
 
 
 #st.table(pd.DataFrame({
